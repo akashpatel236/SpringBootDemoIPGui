@@ -1,0 +1,708 @@
+/*
+ * css for wos
+ * 
+ * $Id: wes.css,v 1.7.34.1.10.1.64.6.2.9.6.1 2017/09/28 09:55:37 gadar500 Exp $
+ */
+body {
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	margin-right: 0;
+	margin-top: 15;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.plainoff {
+	font-family: verdana;
+	color: #999999;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+a.plain:link {
+	font-family: verdana;
+	color: #000000;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+a.plain:active {
+	font-family: verdana;
+	color: #000000;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+a.plain:visited {
+	font-family: verdana;
+	color: #000000;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+a.plain:hover {
+	font-family: verdana;
+	color: #009900;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.submit_text {
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #090;
+	cursor: hand;
+}
+
+.submit_text_disabled {
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	color: #9C9C9C;
+}
+
+
+table.input_form {
+	/*width: 500;	*/
+}
+table.input_form_port {
+	width: 500;
+}
+table.order_confirm_screen {
+	width:740px;
+	font-size: 13px;
+    border:0px double #ccc;
+    text-align:left;
+    margin:0 auto;
+	border-spacing: 0;
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+td.confirm_page {
+	font-family: Verdana;
+	font-size: 13px;
+	color: #000000;
+}
+
+table.button_array {
+	
+}
+
+td.table_header {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	font-weight: bold;
+	width: 382px;
+	background-color: #D6D6D6;
+}
+
+td {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+th {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #000000;
+}
+
+td.read_only_text {
+	font-family: Verdana;
+	font-size: 9px;
+	color: grey;
+}
+
+td.section {
+	font-family: Verdana;
+	font-size: 11px;
+	color: white;
+	font-weight: bold;
+	background-color : #090;
+/*	background-color : #FFFF00; */
+	align=left;
+}
+
+td.sectionevc {
+	font-family: Verdana;
+	font-size: 11px;
+	color: white;
+	font-weight: bold;
+	background-color : #090;
+/*	width : 670px;
+	background-color : #FFFF00; */
+	align=left;
+}
+
+td.section_header_confirm_page {
+	font-family: Verdana;
+	width: 600;
+	font-size: 11px;
+	color: white;
+	font-weight: bold;
+	background-color : #090;
+/*	background-color : #FFFF00; */
+	align=left;
+}
+
+td.section_no_background_color {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	font-weight: bold;	
+	align=center;
+}
+
+td.subsection {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+    font-weight: bold;
+    align=left;
+}
+
+td.subsection2 {
+	font-family: Verdana;
+	font-size: 11px;
+	font-style: italic;
+	color: black;
+}
+
+td.info {
+	font-family: Verdana;
+	font-size: 9px;
+	color: black;
+}
+
+td.input_label {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	width: 170;
+	vertical-align: top;
+}
+
+
+td.input_label_nowidth {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+}
+
+
+
+td.input_label_coordinate {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	width: 100;
+	vertical-align: center;
+	padding:0px;
+
+}
+
+td.input_label_coordinate_unit {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	width: 60;
+	vertical-align: center;
+	text-align: right;
+	padding:0px;
+}
+
+td.output_text {
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: black;
+	width: 160;
+}
+
+td.input_label_error {
+	font-family: Verdana;
+	font-size: 10px;
+	color: red;
+	width: 160;
+}
+
+td.input_sublabel {
+	font-family: Verdana;
+	font-size: 11px;
+	font-style: italic;
+	color: black;
+	width: 160;
+}
+
+td.globalError {
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: normal;
+	color: red;
+	width: 382px;
+}
+
+td.globalWarning {
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: normal;
+	color: blue;
+	width: 382px;
+}
+
+td.radio_label {
+	font-family: Verdana;
+	font-size: 9px;
+	color: black;
+	font-weight: normal;
+	vertical-align: top;
+}
+
+span.error {
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: normal;
+	color: red;
+}
+
+div.error {
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	font-style: normal;
+	color: black;
+}
+
+textarea.default_input {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+}
+
+input.submitbutton {
+	width: 140px;
+	height: 18px;
+	border: none;
+	background-color: #090;
+	color: white;
+	padding: 2px 8px;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+input.submitbutton_disable {
+	width: 140px;
+	height: 18px;
+	border: none;
+	background-color: #A9A9A9;
+	color: white;
+	padding: 2px 8px;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+input.submitbutton_search_show {
+	width: 160px;
+	height: 18px;
+	border: none;
+	background-color: #090;
+	color: white;
+	padding: 2px 8px;
+	font-weight: normal;
+	font-size: 11px;
+}
+input.submitbutton_confirm_page {
+	width: 180px;
+	height: 18px;
+	border: none;
+	background-color: #090;
+	color: white;
+	padding: 2px 8px;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+input.submitbutton_nowidth {
+	height: 18px;
+	border: none;
+	background-color: #090;
+	color: white;
+	padding: 2px 8px;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+input.submitbutton_search {
+	height: 18px;
+	border: none;
+	background-color: #090;
+	color: white;
+	padding: 2px 2px;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+input.small_submitbutton {
+	font-family: Verdana;
+	font-size: 9px;
+	width: 40px;
+	height: 18px;
+}
+
+input.small_submitbutton_arrow {
+	font-family: lucida;
+	font-size: 13px;
+	height: 18px;
+	line-height: 1;
+}
+
+input.text.default_input {
+	font-family: Verdana;
+	width: 220;
+	font-size: 9px;
+	color: black;
+}
+
+input.text.default_input_halfwidth {
+	font-family: Verdana;
+	width: 110;
+	font-size: 9px;
+	color: black;
+}
+
+select.default_input {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	width: 220;
+}
+
+select.default_input_halfwidth {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	width: 110;
+}
+
+select.default_input_nowidth {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+}
+
+input.text.default_input_readonly {
+	font-family: Verdana;
+	width: 220;
+	font-size: 9px;
+	color: #ADAA9C;
+	font-color: #ADAA9C;
+}
+
+input.file.filename {
+	font-family: Verdana;
+	width: 220;
+	font-size: 9px;
+	color: black;
+}
+
+input.text.default_input_nowidth {
+	font-family: Verdana;
+	font-size: 9px;
+	color: black;
+}
+
+input.text.short_input {
+	font-family: Verdana;
+	width: 110;
+	font-size: 9px;
+	color: black;
+}
+
+input.text.shorter_input {
+	/*height: 10px; */
+	font-family: Verdana;
+	width: 80;
+	font-size: 9px;
+	color: black;
+}
+
+input.text.medium_short_input {
+	font-family: Verdana;
+	width: 60;
+	font-size: 9px;
+	color: black;
+}
+
+input.text.very_short_input {
+	font-family: Verdana;
+	width: 30;
+	font-size: 9px;
+	color: black;
+}
+
+select.selection {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	width: 170;
+}
+
+option.option {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+}
+
+select.cgblist {
+	width: 110;
+}
+
+.group_input_box { /* border           : 1px solid; */
+	padding: 10px;
+	background-color: #efefef;;
+	color: #D4D0C8;
+	width: 98%;
+	height: 525px;
+}
+
+.disclaimer_text {
+	font-family: Verdana;
+	font-size: 10px;
+}
+
+.normal_text {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+}
+
+.extra_text {
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+}
+
+.top {
+	font-family: Verdana;
+	font-size: 9px;
+	color: #9B9C9B;
+	letter-spacing: -0.1em;
+}
+
+.dropdown_list {
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: red;
+}
+
+
+textarea.default_input_halfwidth_routerpair {
+	font-family: Verdana;
+	width: 210;
+	font-size: 9px;
+	color: black;
+}
+
+input.text.default_input_halfwidth_routerpair {
+	font-family: Verdana;
+	width: 210;
+	font-size: 9px;
+	color: black;
+}
+
+
+select.default_input_halfwidth_routerpair {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	width: 210;
+}
+
+select.default_input_routerpair {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	width: 423;
+}
+
+input.text.default_input_routerpair {
+	font-family: Verdana;
+	width: 423;
+	font-size: 9px;
+	color: black;
+}
+
+/*
+WEAS001
+*/
+input.cancelbutton {
+	width: 80px;
+	height: 18px;
+	border: none;
+	background-color: #090;
+	color: white;
+	padding: 2px 8px;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+input.proceedtoSubmitCancellation{
+	width: 250px;
+	height: 18px;
+	border: none;
+	background-color: #090;
+	color: white;
+	padding: 2px 8px;
+	font-weight: normal;
+	font-size: 11px;
+	
+}
+
+input.viewBlockedOrders{
+	width: 80px;
+	height: 18px;
+	border: none;
+	background-color: #090;
+	color: white;
+	padding: 2px 8px;
+	font-weight: normal;
+	font-size: 11px;	
+}
+
+input.backToSearchButton{
+	width: 160px;
+	height: 18px;
+	border: none;
+	background-color: #090;
+	color: white;
+	padding: 2px 8px;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+input.cancelSubmitButton{
+	width: 160px;
+	height: 18px;
+	border: none;
+	background-color: #090;
+	color: white;
+	padding: 2px 8px;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+input.cancelConfirmButon{
+	width: 165px;
+	height: 18px;
+	border: none;
+	background-color: #090;
+	color: white;
+	padding: 2px 8px;
+	font-weight: normal;
+	font-size: 11px;
+}
+/* nounderline {
+   text-decoration:none;
+} */
+td.section_confirm_page {
+	
+	font-family: Verdana;
+	font-size: 11px;
+	color: white;
+	font-weight: bold;
+	background-color : #090;
+/*	background-color : #FFFF00; */
+	align=left;
+}
+td.input_label_diagnose {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	width: 250;
+	vertical-align: top;
+}
+
+td.label_diagnose_advise {
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	width: 550;
+	vertical-align: top;
+}
+div.cpe_ping_test { 
+    padding:0px;  
+	border:1px solid black;
+	width: 570;  
+}
+div.cpe_ping_result { 
+    padding:0px;  
+	border:1px solid black;  
+	margin-top:15px;
+	width: 550;
+	
+}
+tr.cpe_ping_header{background-color: #C0C0C0}
+input.cpe_ping_test_button {
+	height: 30px;
+	border: none;
+	background-color: #090;
+	color: white;
+	padding: 2px 8px;
+	font-weight: normal;
+	font-size: 11px;
+	border-radius: 5px;
+}
+input.cpe_ping_test_info_button {
+	height: 25px;
+	width: 25px;
+	border: none;
+	background-color: lightGrey;
+	color: darkgreen;
+	padding: 2px 8px;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 50%;
+	display: block;
+}
+.tooltip {
+    position: relative;
+    display: block;
+    height: 25px;
+	width: 25px;
+	border: none;
+	background-color: lightGrey;
+	color: darkgreen;
+	padding: 2px 8px;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 50%;
+	display: block;
+    text-align: center;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    font-size: 10px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
